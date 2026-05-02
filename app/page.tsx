@@ -2,10 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <html lang="en">
-      <head>
-        <meta name="base:app_id" content="69f6736de5227b2ca7cbabad" />
-      </head>
+    
       <iframe
         src="/index.html"
         style={{
@@ -15,6 +12,5 @@ export default function Home() {
         }}
         title="Snake Game"
       />
-    </html>
   );
 }

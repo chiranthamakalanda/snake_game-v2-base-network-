@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Snake Game on Base",
   description: "Play Snake Game on Base Network",
+  other: {
+    "base:app_id": "69f6736de5227b2ca7cbabad",   // මේක මෙහෙම දාන්න
+  },
 };
 
 export default function RootLayout({
